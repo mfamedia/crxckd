@@ -1,0 +1,50 @@
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    color: #ffffff;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+}
+
+form input,
+form button,
+form h3,
+form p {
+    display: block;
+    margin: 12px;
+    font-family: monospace;
+}
+
+form input {
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.content h3,
+.content p{
+    display: block;
+    margin: 12px;
+    font-family: monospace;
+}
